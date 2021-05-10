@@ -41,6 +41,7 @@ get relationships() { return utils.getFromCollection(this.clusters , "relationsh
 get shards() { return utils.getFromCollection(this.clusters , "shards") }
 get unavailableGuilds() { return utils.getFromCollection(this.clusters , "unavailableGuilds") }
 get voiceConnections() { return utils.getFromCollection(this.clusters , "voiceConnections") }
+get users() { return utils.getFromCollection(this.clusters , "users") }
 
 // object
 get application() { return utils.getFromObject(this.clusters , "application") }
@@ -51,7 +52,6 @@ get options() { return utils.getFromObject(this.clusters , "options") }
 get privateChannelMap() { return utils.getFromObject(this.clusters , "privateChannelMap") }
 get userGuildSettings() { return utils.getFromObject(this.clusters , "userGuildSettings") }
 get userSettings() { return utils.getFromObject(this.clusters , "userSettings") }
-get users() { return utils.getFromObject(this.clusters , "users") }
 
 // events
 
