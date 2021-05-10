@@ -1,0 +1,28 @@
+{
+  "name": "staffranks-offical-sharder",
+  "version": "0.0.1",
+  "description": "Discord bot sharder made for eris",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qhmedhazem/sharder.git"
+  },
+  "author": "A7med",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qhmedhazem/sharder/issues"
+  },
+  "dependencies": {
+    "eris": "*",
+    "os": "*",
+    "axios": "*",
+    "body-parser": "*"
+  },
+"publishConfig": {
+  "registry":"https://npm.pkg.github.com/@qhmed"
+},
+  "homepage": "https://github.com/qhmedhazem/sharder#readme"
+}
