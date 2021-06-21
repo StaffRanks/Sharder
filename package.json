@@ -16,7 +16,7 @@
     "url": "https://github.com/qhmedhazem/sharder/issues"
   },
   "dependencies": {
-    "eris": "*",
+    "eris": "^0.14.1",
     "os": "*",
     "axios": "*",
     "body-parser": "*"
