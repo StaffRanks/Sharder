@@ -1,6 +1,6 @@
 {
   "name": "staffranks-offical-sharder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Discord bot sharder made for eris",
   "main": "index.js",
   "scripts": {
